@@ -16,6 +16,7 @@ Web interface and data of "Real-time On-Demand Crowd-powered Entity Extraction" 
 
 ## How to Cite
 
+```
 @INPROCEEDINGS {dialog-esp-game,
     author    = "Huang, Ting-Hao K. and Chen, Yun-Nung and Bigham, Jeffrey P.",
     title     = "Real-time On-Demand Crowd-powered Entity Extraction",
@@ -25,3 +26,4 @@ Web interface and data of "Real-time On-Demand Crowd-powered Entity Extraction" 
     month     = "jun",
     note      = "Oral presentation"
 }
+```
