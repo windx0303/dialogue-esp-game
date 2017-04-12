@@ -1,0 +1,166 @@
+<html>
+
+<head>
+
+<title>Dialogue ESP Game</title>
+
+<link rel="stylesheet" type="text/css" href="css/atis-amt.css">
+<link rel="stylesheet" type="text/css" href="css/color.css">    
+<link rel="stylesheet" type="text/css" href="css/chat.css"> 
+
+<script src="https://use.fontawesome.com/8ae376981f.js"></script>
+
+<!-- External Lib -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/gup.js" type="text/javascript"></script>
+
+<!-- Page JS -->
+<script src="js/esp-amt.js" type="text/javascript"></script>
+
+</head>
+
+<body class="bg-color-primary-1">
+
+<div id="pre-inst" class="bg-color-primary-2">
+	
+	<h1 id="pre-inst-title">
+	Dialogue ESP Game
+	</h1>
+	<div id="pre-inst-text">
+	<p>
+	<span class="pre-inst-task-num pre-inst-highlight">6</span> ESP games.
+	<span class="pre-inst-task-time pre-inst-highlight">30</span> seconds each.
+	<span class="pre-inst-highlight">Alert</span> signals in between.
+	<!--  
+	<span class="pre-inst-highlight">No pauses</span> in between.
+	-->
+	</p>
+	<p>
+	Your <span class="pre-inst-highlight">response time</span> to the alert 
+	<span class="pre-inst-highlight">counts</span>. So <span class="pre-inst-highlight">do not pause</span>.
+	</p>
+	<p>
+	You need to finish all <span class="pre-inst-task-num">6</span> games to get paid.
+	</p>
+	<p>
+	Click the <span class="pre-inst-highlight-black">START</span> button when you are ready.
+	</p>
+	</div>
+	
+	<button id="start-btn" class="bg-color-primary-0 color-primary-1">START</button>
+
+	</div>
+
+<div id="wrap">
+
+	<div id="header">
+		<div id="score">
+			<div id="scoreContainer" class="color-primary-0">
+				Score
+				<div id="scoreDisplay">0</div>
+			</div>
+		</div>
+		
+		<div id="logo">
+			<h1 id="logoContainer" class="color-primary-0">Dialogue ESP Game</h1>
+		</div>
+		<div id="timer">
+			<div id="timerContainer" class="color-primary-0">
+				Time Left
+				<div id="timeDisplay">00:30</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="main" class="bg-color-primary-2">
+	
+		<div id="question">
+			<div id="questionContainer" class="color-primary-4">
+				What is the
+				<span class="parameterName">toloc.city_name</span>
+				in this dialogue?
+			</div>
+		</div>
+		<div id="panel">
+			<div id="target">
+					<table id="paraTable">
+						<tr><th class="parameterName"><i class="fa fa-book bookIcon"></i>toloc.city_name</th></tr>
+						<tr><td>
+							<p><strong>City name. The <strong>destination</strong> city of a flight.</strong></p>
+							<!-- 
+							<p>(DO <span class="pre-inst-highlight">NOT</span> include the state, county, or country name.)</p>
+							<p>(Answer <span class="pre-inst-highlight">only</span> when you are confident.)</p>
+							<p>(DO include the word "city" if it appears.)</p>
+							 -->
+						</td></tr>
+						
+					</table>
+			</div>
+			<div id="chat">
+				<div id="chatContainer">
+					<ul id="chatLines">
+						<li class="messages confirmed requester">
+							<span class="role">user</span>: give me nonstop flights from , new york city to las vegas
+						</li>
+						<li class="messages confirmed crowd">
+							<span class="role">system</span>: 
+							<span class="systemAction">(Display the flight information)</span>
+						</li>
+						<li class="messages confirmed requester">
+							<span class="role">user</span>: sunday flights
+						</li>
+						<li class="messages confirmed crowd">
+							<span class="role">system</span>: 
+							<span class="systemAction">(Display the flight information)</span>
+						</li>
+						<li class="messages confirmed requester">
+							<span class="role">user</span>: sunday flights from new york city to las vegas
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="answer">
+				<div id="answerContainer">
+					<h3 class="answerTitle color-primary-3">Answers</h3>
+					<ul id="answerList" class="color-primary-3">
+						<!--  
+						<li class="answer">NEW YORK</li>
+						<li class="answer">NEW YORK CITY</li>
+						<li class="answer">NY</li>
+						<li class="answer">LAS VEGAS</li>
+						<li class="answer">LV</li>
+						<li class="answer">LAS VEGAS CITY</li>
+						<li class="answer">LAS VEGAS</li>
+						<li class="answer">LV</li>
+						<li class="answer">LAS VEGAS CITY</li>
+						-->
+					</ul>
+					
+					<textarea id="type"></textarea>
+					<div id="notExistBtn">
+					<i class="fa fa-times"></i>
+					Not Found Here
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+	</div>
+
+	<div id="notification">
+		Matched On: NEW YORK
+	</div>
+	
+</div>
+
+<form id="legion-submit-form">
+	<input type="hidden" name="assignmentId" id="legion-assignmentId">
+</form>
+
+<div id="page-cover"></div>
+
+</body>
+
+</html>

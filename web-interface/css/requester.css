@@ -1,0 +1,6 @@
+#soundNoticeConf, #newMessageNoticeConf, #statusPanel{
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	color: gray;
+}

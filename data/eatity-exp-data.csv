@@ -1,0 +1,151 @@
+ID,User,Conversational Act,Context,Sentence,Gold-Standard Food Entity
+1,1,QUESTION,EAT,where can I find spaghetti?,spaghetti
+2,1,ANSWER,EAT,I like cheese burger,cheese burger
+3,1,MENTION,EAT,I am going to have vindaloo lamb tonight,vindaloo lamb
+4,1,QUESTION,DRINK,Do you like sweeten tea?,sweeten tea
+5,1,ANSWER,DRINK,No I do not like coke,coke
+6,1,MENTION,DRINK,There are many flavors of latte,latte
+7,1,QUESTION,COOK,How do I prepare makhani chicken curry for dinner?,makhani chicken curry
+8,1,ANSWER,COOK,I would not have kimchee with makhani chicken curry.,kimchee with makhani chicken curry
+9,1,MENTION,COOK,Wheat bread with curry is good.,Wheat bread with curry
+10,1,QUESTION,CHAT,Do you want to have pizza later?,pizza 
+11,1,ANSWER,CHAT,Alternatively we can have cornish pasty,cornish pasty
+12,1,MENTION,CHAT,I really want to learn how to make a good bowl of mushroom soup,mushroom soup
+13,1,QUESTION,COUNTRY,have you been to Singapore?,-
+14,1,ANSWER,COUNTRY,no I have not been to Taiwan,-
+15,1,MENTION,COUNTRY,England beats Australia in the Ashes,-
+16,2,QUESTION,EAT,Do you want to go get a burger?,burger
+17,2,ANSWER,EAT,"Sure, french fries sound like a good snack.",french fries
+18,2,MENTION,EAT,The scallion cakes at Mama Chen's are awesome!,scallion cakes
+19,2,QUESTION,DRINK,Do you serve green tea latte here?,green tea latte
+20,2,ANSWER,DRINK,I would like my bubble tea served hot.,bubble tea
+21,2,MENTION,DRINK,The root beer I just ordered tastes a little odd.,root beer
+22,2,QUESTION,COOK,Would my okonomiyaki burn if I cook it for more than 30 minutes?,okonomiyaki 
+23,2,ANSWER,COOK,"OK, I will try stir-frying my oyakodon.",oyakodon
+24,2,MENTION,COOK,I hope the gyudon I make will taste as good as the ones served in Yoshinoya.,gyudon 
+25,2,QUESTION,CHAT,Do you like the fried rice at Orient Express?,fried rice
+26,2,ANSWER,CHAT,"No, I don't think they serve wings at Rose Tea Cafe.",wings 
+27,2,MENTION,CHAT,The salad served at Hello Bistro is awesome!,salad 
+28,2,QUESTION,COUNTRY,Have you ever been to a night-market in Taiwan?,-
+29,2,ANSWER,COUNTRY,The cherry blossoms in Japan are super pretty.,-
+30,2,MENTION,COUNTRY,I saw many weird looking animals in Australia.,-
+31,3,QUESTION,EAT,Do you like stinky tofu?,stinky tofu
+32,3,ANSWER,EAT,I don't know where to eat Acai berry bowl in pittsburgh....,Acai berry bowl
+33,3,MENTION,EAT,Tuna onigiri makes me think about japan,Tuna onigiri
+34,3,QUESTION,DRINK,Can i have medium latter with non-fat milk?,latter with non-fat milk
+35,3,ANSWER,DRINK,"Yes, what I ordered is green tea latte",green tea latte
+36,3,MENTION,DRINK,I really enjoy the best soymilk in my home town of taiwan,soymilk 
+37,3,QUESTION,COOK,Do you have experiences about cooking rice burger?,rice burger
+38,3,ANSWER,COOK,I want to try to make seared salmon today!,seared salmon
+39,3,MENTION,COOK,I am dreaming of milkfish soup every night.,milkfish soup 
+40,3,QUESTION,CHAT,mapo tofu is a frequently seen dish in the US,mapo tofu
+41,3,ANSWER,CHAT,Is beef pho very common in the US?,beef pho
+42,3,MENTION,CHAT,scallion pancake in california is acceptable,scallion pancake
+43,3,QUESTION,COUNTRY,do you know taiwan is the most delicious country in the whole world?,-
+44,3,ANSWER,COUNTRY,I eat too much in Thailand,-
+45,3,MENTION,COUNTRY,Japan is my favorite country for visit.,-
+46,4,QUESTION,EAT,Do you know any good pizza around here?,pizza 
+47,4,ANSWER,EAT,I can go to OE to get fried rice with you,fried rice
+48,4,MENTION,EAT,The waffle at waffleonia is so good,waffle 
+49,4,QUESTION,DRINK,can I have cup of water?,water
+50,4,ANSWER,DRINK,No I want to have pepsi instead,pepsi 
+51,4,MENTION,DRINK,"the tea you serve is really good, thank you",tea 
+52,4,QUESTION,COOK,do you know how to make alcohol drink?,alcohol drink
+53,4,ANSWER,COOK,I've also made chocolate pie before,chocolate pie
+54,4,MENTION,COOK,I've made some cookie yesterday,cookie 
+55,4,QUESTION,CHAT,have you ever tried the dimsum at squrrial hill?,dimsum 
+56,4,ANSWER,CHAT,I think burgertory has the best burger at pittsburgh,burger 
+57,4,MENTION,CHAT,"I've tried the milkshake at burgertory, it's so good",milkshake 
+58,4,QUESTION,COUNTRY,have you ever been to Taiwan,-
+59,4,ANSWER,COUNTRY,I've been to United State before,-
+60,4,MENTION,COUNTRY,I have friend who comes from Saudi Arabia,-
+61,5,QUESTION,EAT,Do you want to go to Pho Minh for dinner tonight?,Pho 
+62,5,ANSWER,EAT,I think the best BBQ place in town is Smoke BBQ Taqueria in Lawrenceville,BBQ 
+63,5,MENTION,EAT,I think Pittsburgh has pretty good Thai food,Thai food
+64,5,QUESTION,DRINK,Can I have a grande Latte with nonfat milk?,Latte with nonfat milk
+65,5,ANSWER,DRINK,I usually have Magic Hat #9,Magic Hat #9
+66,5,MENTION,DRINK,On Wednesday they have $5 old fashion during happy hours,old fashion
+67,5,QUESTION,COOK,Do you know is there any good beef noodles recipes online?,beef noodles
+68,5,ANSWER,COOK,I bought the steak from Whole Foods,steak 
+69,5,MENTION,COOK,Tomato soup is good for sick people,Tomato soup
+70,5,QUESTION,CHAT,Have you ever had spicy hot pot?,spicy hot pot
+71,5,ANSWER,CHAT,Soup dumplings are my favorite hangover food,Soup dumplings
+72,5,MENTION,CHAT,I always want to learn how to cook ramen myself but I heard it's difficult,ramen 
+73,5,QUESTION,COUNTRY,When did you come to the USA?,-
+74,5,ANSWER,COUNTRY,Tickets back to Taiwan are around $2000 during Christmas,-
+75,5,MENTION,COUNTRY,I went to Italy a few years ago and I loved it!,-
+76,6,QUESTION,EAT,Do you know where around campus I can get some chocolates?,chocolates
+77,6,ANSWER,EAT,"I know there's a Dunkin donuts on fifth , shall we go there after class?",donuts 
+78,6,MENTION,EAT,"I really want some cheesecake, do you want to go with me?",cheesecake
+79,6,QUESTION,DRINK,Can I have a venti vanilla latte?,vanilla latte
+80,6,ANSWER,DRINK,"The strawberry smoothie at Starbucks is really good, you should try it!",strawberry smoothie
+81,6,MENTION,DRINK,I really like the iced tea at Eat unique,iced tea
+82,6,QUESTION,COOK,Do you have a recipe of pad thai with shrimp? i want to cook it at home,pad thai with shrimp
+83,6,ANSWER,COOK,"I don't know how to cook seafood pancake, maybe you can ask someone else.",seafood pancake
+84,6,MENTION,COOK,"i really want to cook fish fillets in hot chili, but I think it's really difficult.",fish fillets
+85,6,QUESTION,CHAT,Let's have hot pot tonight!,hot pot
+86,6,ANSWER,CHAT,Have you ever tried bibimbap at Green pepper?,bibimbap 
+87,6,MENTION,CHAT,Where can we get good japchae in Pittsburgh?,japchae 
+88,6,QUESTION,COUNTRY,Are you going back to China during winter holidays?,-
+89,6,ANSWER,COUNTRY,The capital of France is Paris.,-
+90,6,MENTION,COUNTRY,"Italy is a very beautiful country, with lots of interesting places to visit.",-
+91,7,QUESTION,EAT,What is your favorite type of chocolate?,chocolate
+92,7,ANSWER,EAT,The best pancakes that you can get here is at Pamela's,pancakes 
+93,7,MENTION,EAT,Strawberries are very good anti oxidants,Strawberries
+94,7,QUESTION,DRINK,what is the best coffee shop around here?,coffee 
+95,7,ANSWER,DRINK,Chocolate milkshake is the best milk shake,Chocolate milkshake
+96,7,MENTION,DRINK,Beer is the best beverage,Beer
+97,7,QUESTION,COOK,how do you cook fried fish fillets?,fried fish fillets
+98,7,ANSWER,COOK,you need to fry the chicken for 7 minutes if you want to eat fried chicken,fried chicken
+99,7,MENTION,COOK,"when i was in Germany, I had a lot of sausages..",sausages
+100,7,QUESTION,CHAT,Gulab Jamun is an Indian delicacy.,Gulab Jamun
+101,7,ANSWER,CHAT,Paneer Tika is a north Indian dish,Paneer Tika
+102,7,MENTION,CHAT,I eat a samosa every day,samosa 
+103,7,QUESTION,COUNTRY,What is the capital of Italy?,-
+104,7,ANSWER,COUNTRY,Paris is the capital of France,-
+105,7,MENTION,COUNTRY,Germany has a very strong football team,-
+106,8,QUESTION,EAT,I want to have dumplings for dinner. Are there any good restaurants for Chinese dumplings in Pittsburgh?,dumplings 
+107,8,ANSWER,EAT,"probably Xi'an noodles, Sakura in squirrel hill has it",noodles
+108,8,MENTION,EAT,Haha ... everyone now knows my favorite food is stew pork over rice ...,stew pork over rice
+109,8,QUESTION,DRINK,"hi, do you have iced Mocha?",iced Mocha
+110,8,ANSWER,DRINK,"I want to have a beer, with the green apple flavor. Any brand is good.",beer
+111,8,MENTION,DRINK,"I ordered orange juice just now, just waiting for my order to be delivered",orange juice
+112,8,QUESTION,COOK,"You made a tuna fish sandwich yesterday, right? Can you send me the recipe?",tuna fish sandwich
+113,8,ANSWER,COOK,"Maximum flavor around the street corner has pasta, but I never tried it",pasta
+114,8,MENTION,COOK,"Yep, today is Mid-Autumn festival. We are going to have a hot pot party. Feel free to join us!",hot pot
+115,8,QUESTION,CHAT,Did you try their potato slices with green peppers? It sounds weird but really delicious.,potato slices with green peppers
+116,8,ANSWER,CHAT,I've never seen Chinese BBQ in the US. I guess Americans don't like it ...,Chinese BBQ
+117,8,MENTION,CHAT,Crepes Parisiennes has very good French pancakes ... it's on South Craig Street,French pancakes
+118,8,QUESTION,COUNTRY,How many places in China have you been to? Any places you like particularly?,-
+119,8,ANSWER,COUNTRY,"OK, I went to Australia in 2009, stayed in Melbourne for 5 days.",-
+120,8,MENTION,COUNTRY,I guess Fall is the season I like most during my stay in USA.,-
+121,9,QUESTION,EAT,"Hey yo, do you want to have some stinky tofu in the night market tonight?",stinky tofu
+122,9,ANSWER,EAT,Maybe stew pork over rice is a better choice for today's lunch?,stew pork over rice
+123,9,MENTION,EAT,You should try yakitori when you visit Japan because it is delicious.,yakitori 
+124,9,QUESTION,DRINK,May I have a caramel frappuccino please?,caramel frappuccino
+125,9,ANSWER,DRINK,I would like to have a caramel macchiato please.,caramel macchiato
+126,9,MENTION,DRINK,The coffee with coconut milk in Starbucks is great.,coffee with coconut milk
+127,9,QUESTION,COOK,Can you give me your recipe about cooking baked cinnamon apples please?,baked cinnamon apples
+128,9,ANSWER,COOK,Yes I want to make an apple pie tonight for my family.,apple pie
+129,9,MENTION,COOK,"I saw a recipe of stew pork with potato and apple this morning, and it looks great.",stew pork with potato and apple
+130,9,QUESTION,CHAT,What do you think about having teppanyaki tonight at centre ave?,teppanyaki 
+131,9,ANSWER,CHAT,"No, okonomiyaki is too salty in this restaurant, and I do not like it.",okonomiyaki 
+132,9,MENTION,CHAT,The crab hotpot last night in the Sakura restaurant is great!,crab hotpot
+133,9,QUESTION,COUNTRY,Do you want to go back to Taiwan this spring break?,-
+134,9,ANSWER,COUNTRY,Yes I would like to go to Japan this summer.,-
+135,9,MENTION,COUNTRY,USA has the best computer science schools in the world.,-
+136,10,QUESTION,EAT,where should I eat hotpot tonight?,hotpot 
+137,10,ANSWER,EAT,I bought cherry from Giant Eagle and I gonna eat it tonight.,cherry 
+138,10,MENTION,EAT,I bought Chinese cabbage from Korean market and it was so expensive!,Chinese cabbage
+139,10,QUESTION,DRINK,How much is the small ice tea?,ice tea
+140,10,ANSWER,DRINK,I ordered half sweet macha.,half sweet macha
+141,10,MENTION,DRINK,I need a straw for drinking my apple juice.,apple juice
+142,10,QUESTION,COOK,Which ingredients should I prepare for cooking pumkim risotto?,pumkim risotto
+143,10,ANSWER,COOK,I cooked my tomato risotto in low heat for 20 minutes.,tomato risotto
+144,10,MENTION,COOK,I cooked boeuf bourguignon and it was so tasteless...,boeuf bourguignon
+145,10,QUESTION,CHAT,Do you know where can I buy stinky tofu in Pittsburgh?,stinky tofu
+146,10,ANSWER,CHAT,I ate sausage muffin with egg at McDonald as breakfast almost everyday.,sausage muffin with egg
+147,10,MENTION,CHAT,I like the eggplant with basil at the restaurant on Craig street most.,eggplant with basil
+148,10,QUESTION,COUNTRY,How often do you travel to Japan?,-
+149,10,ANSWER,COUNTRY,I can recommend some tourist spots in Taiwan to you.,-
+150,10,MENTION,COUNTRY,I'm now a graduate student in United States.,-
