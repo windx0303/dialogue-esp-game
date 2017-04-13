@@ -19,11 +19,21 @@ Output-agreement mechanisms such as ESP Game have been widely used in human comp
 
 ![Dialogue ESP Game Interface](https://c1.staticflickr.com/3/2866/34005041255_a3aefed546_b.jpg)
 
+An example source code of our worker interface is in the following folder:
+
+```
+web-interface/
+```
+
+- This code should be *off-the-shelf* ready. You can download the code and click on ```ESP-AMT.html``` to play with it.
+
+- The only required external package is **jQuery 1.7.2**. Feel free to upgrate it to some (much) newer versions.
+
+- This example code does **not** contain any ajax functions and back-end code that connects to the database.
+
+- 
 
 
-
-
-### Interface Demo
 
 [Live Demo](https://www.cs.cmu.edu/~tinghaoh/project/dialog_esp_game/demo/ESP-AMT.html)
 
