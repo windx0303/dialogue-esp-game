@@ -5,7 +5,7 @@ This repository contains the source code of the worker interface and the data co
 
 Ting-Hao K. Huang, Yun-Nung Chen, Jeffrey P. Bigham.
 2017.
-**Real-time On-Demand Crowd-powered Entity Extraction.**
+**[Real-time On-Demand Crowd-powered Entity Extraction.](https://arxiv.org/abs/1704.03627)**
 In Proc. [the 5th Edition Of The Collective Intelligence Conference](http://collectiveintelligenceconference.org/index.html) (CI 2017, oral presentation).
 New York University, NY, USA.
 
