@@ -33,24 +33,18 @@ web-interface/
 
 ### Notes
 
-- This code is *off-the-shelf* ready. You can download the code and open ```ESP-AMT.html``` with any web browser to play with it. We also host a **[live demo] (https://www.cs.cmu.edu/~tinghaoh/project/dialog_esp_game/demo/ESP-AMT.html)**.
+- This code is *off-the-shelf* ready. You can download the code and open ```ESP-AMT.html``` with any web browser to play with it. We also host a **[live demo here](https://www.cs.cmu.edu/~tinghaoh/project/dialog_esp_game/demo/ESP-AMT.html)**.
 
-- For programmatical use, our code only requires **jQuery 1.7.2**. Feel free to upgrate it to some (much) newer versions.
+- For programmatical use, the code only requires **jQuery 1.7.2**. Feel free to upgrade it to some (much) newer versions.
 
-- This example code does **not** contain any ajax functions and back-end code that connects to the database.
-
-- 
-
-
-
-
+- This example code does **not** contain any ajax functions nor back-end codes that connect to the database.
 
 ## Data
 
 
 
 
-## How to Cite
+## How to Cite this Work
 
 ```
 @INPROCEEDINGS {dialog-esp-game,
