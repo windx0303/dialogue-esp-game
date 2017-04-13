@@ -42,6 +42,9 @@ web-interface/
 ## *Eatity* Data
 
 In the Experiment 2 of our paper, we conducted lab-based user experiments to evaluate the proposed technology on extracting **"food"** entities.
+
+### Scenarios 
+
 Ten Google Hangouts users enter our lab with their own laptops.
 We first ask them to arbitrarily create a list 9 foods, 3 drinks, and 3 countries based on their own preferences.
 Then we explain the purpose of the experiments, and introduce five scenarios of using instant messaging:
@@ -59,6 +62,8 @@ Then we explain the purpose of the experiments, and introduce five scenarios of 
         You are chatting with your friend.
         You do not mention food.
         Instead, you mention a country name.
+
+### Conversational Acts
 
 We also list three types of conversational acts which could emerge in each scenario:
 
