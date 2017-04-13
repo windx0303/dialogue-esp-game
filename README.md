@@ -24,7 +24,7 @@ Output-agreement mechanisms such as ESP Game have been widely used in human comp
 An example source code of our worker interface is in the following folder:
 
 ```
-web-interface/
+dialogue-esp-game/web-interface/
 ```
 
 ### URL Parameters
@@ -39,9 +39,17 @@ web-interface/
 
 - This example code does **not** contain any ajax functions nor back-end codes that connect to the database.
 
-## *Eatity* Data
+## Data: Messages That Contain Food Entities
 
-In the Experiment 2 of our paper, we conducted lab-based user experiments to evaluate the proposed technology on extracting **"food"** entities.
+In the Experiment 2 of our paper, we conducted lab-based user experiments to evaluate the proposed technology on extracting **"food"** entities. The end-to-end system is called *Eatity*.
+
+The following .csv file contains the data we collected in Expetiment 2.
+
+```
+dialogue-esp-game/data/eatity-exp-data.csv
+```
+
+The detailed description of the user study, which was not included in the paper, is described in the follwoing subsections.
 
 ### Scenarios 
 
@@ -83,7 +91,7 @@ in the Drink scenario, they must mention one of the drinks they listed.
 In the No Food scenario, users must mention one of the countries they listed, and no food names can be mentioned.
 In total, we collect 150 chat inputs from 10 user experiments.
 Correspondingly, instructions on the workers' interface is modified as *"What is the ```food_name``` in this dialog?"*,
-and the explanation of ```food\_name``` is modified as *"Food name. The full name of the food. Including any drinks or beverages."*
+and the explanation of ```food_name``` is modified as *"Food name. The full name of the food. Including any drinks or beverages."*
 In the experiments, our chatbot post 120 HITs with a lifetime of 60 seconds to MTurk upon receiving a text chat.
 The price of each HIT is $0.1. (Rate = $18 per hour.)
 We use the interface shown above with a time constraint of 20 seconds. 
