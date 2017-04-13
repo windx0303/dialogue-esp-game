@@ -39,7 +39,49 @@ web-interface/
 
 - This example code does **not** contain any ajax functions nor back-end codes that connect to the database.
 
-## Data
+## *Eatity* Data
+
+In the Experiment 2 of our paper, we conducted lab-based user experiments to evaluate the proposed technology on extracting **"food"** entities.
+Ten Google Hangouts users enter our lab with their own laptops.
+We first ask them to arbitrarily create a list 9 foods, 3 drinks, and 3 countries based on their own preferences.
+Then we explain the purpose of the experiments, and introduce five scenarios of using instant messaging:
+
+
+- **Eat:**
+  You discuss with your friend about what to eat later. (Your friend is not necessarily in the same location as you.)
+- **Drink:**
+  You discuss with an employee a coffee place, bar, or restaurant to order something to drink.
+- **Cook:**
+  You plan to cook later. You discuss the details with your friend who knows how to cook.
+- **Chat:**
+  You are chatting with your friend.
+- **No Food:**
+        You are chatting with your friend.
+        You do not mention food.
+        Instead, you mention a country name.
+
+We also list three types of conversational acts which could emerge in each scenario:
+
+- **Question:**
+        Ask a question.
+- **Answer:**
+        Answer a question that could be asked under the current scenario.
+        Imagine a question that could be asked in the given scenario,
+        and answer that question.
+- **Mentioning:**
+        Naturally converse without asking or answering any specific questions. 
+        Any words could be said in the given scenario, without the context of question-answering.
+
+Using their laptops, users send one text chat for each combination of [scenario, conversational act] to our chatbot, i.e., 15 chats in total.
+In the Eat, Cook, and Chat scenarios, users must mention one of the foods they listed earlier;
+in the Drink scenario, they must mention one of the drinks they listed.
+In the No Food scenario, users must mention one of the countries they listed, and no food names can be mentioned.
+In total, we collect 150 chat inputs from 10 user experiments.
+Correspondingly, instructions on the workers' interface is modified as *"What is the ```food_name``` in this dialog?"*,
+and the explanation of ```food\_name``` is modified as *"Food name. The full name of the food. Including any drinks or beverages."*
+In the experiments, our chatbot post 120 HITs with a lifetime of 60 seconds to MTurk upon receiving a text chat.
+The price of each HIT is $0.1. (Rate = $18 per hour.)
+We use the interface shown above with a time constraint of 20 seconds. 
 
 
 
