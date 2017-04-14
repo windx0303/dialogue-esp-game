@@ -39,7 +39,7 @@ dialogue-esp-game/web-interface/
 
 - This example code does **not** contain any ajax functions nor back-end codes that connect to the database.
 
-## Data: Messages That Contain Food Entities
+## Data: 150 Messages That Contain Food Entities
 
 In the Experiment 2 of our paper, we conducted lab-based user experiments to evaluate the proposed technology on extracting **"food"** entities. The end-to-end system is called *Eatity*.
 
@@ -54,7 +54,7 @@ The detailed descriptions of the user study, which was not included in the paper
 ### Scenarios 
 
 Ten Google Hangouts users enter our lab with their own laptops.
-We first ask them to arbitrarily create a list 9 foods, 3 drinks, and 3 countries based on their own preferences.
+We first ask them to arbitrarily create a list **9 foods, 3 drinks, and 3 countries** based on their own preferences.
 Then we explain the purpose of the experiments, and introduce five scenarios of using instant messaging:
 
 
